@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wells Fargo Help Center</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #b31b1b;
+      color: white;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 4px solid #ffcc00;
+    }
+    header img {
+      height: 32px;
+      max-width: 150px;
+      object-fit: contain;
+    }
+    header h1 {
+      font-size: 20px;
+      font-weight: normal;
+    }
+    nav {
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      padding: 12px 32px;
+      display: flex;
+      gap: 20px;
+    }
+    nav a {
+      color: #b31b1b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 1100px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 40px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .call-button {
+      display: inline-flex;
+      align-items: center;
+      background-color: #b31b1b;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-bottom: 24px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .call-button:hover {
+      background-color: #8a1414;
+    }
+    main section {
+      margin-bottom: 48px;
+    }
+    h2 {
+      font-size: 22px;
+      color: #b31b1b;
+      margin-bottom: 12px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    a {
+      color: #b31b1b;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+    .floating-call-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #b31b1b;
+      color: white;
+      padding: 12px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 50px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      cursor: pointer;
+      z-index: 999;
+      text-decoration: none;
+    }
+    .floating-call-button:hover {
+      background-color: #8a1414;
+    }
+  </style>
+</head>
+<script defer data-domain="vercel.ii" src="https://plausible.io/js/script.js"></script>
+<body>
+  <header>
+    <img src="logo.png" alt="Wells Fargo Logo" />
+    <h1>Help & Support Center</h1>
+  </header>
+  <nav>
+    <a href="#faqs">FAQs</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#tools">More Support</a>
+  </nav>
+  <main>
+    <a href="tel:18444034090" class="call-button">📞 Call Our Support Team</a>
+
+    <section id="faqs">
+      <h2>Popular FAQs</h2>
+      <ul>
+        <li><a href="tel:18444034090">Find your routing and account numbers</a></li>
+        <li><a href="tel:18444034090">Is there a fee to use Zelle®?</a></li>
+        <li><a href="tel:18444034090">Report identity theft or fraud</a></li>
+        <li><a href="tel:18444034090">Reset your password or username</a></li>
+        <li><a href="tel:18444034090">Update your contact information</a></li>
+        <li><a href="tel:18444034090">View or manage online statements</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Customer Service Contacts</h2>
+      <ul>
+        <li>General Banking: <a href="tel:18444034090"><strong>1 (844) 403-4090</strong></a> (24/7)</li>
+        <li>Online Support: <a href="tel:18444034090"><strong>1 (844) 403-4090</strong></a></li>
+        <li>Credit Card Services: <a href="tel:18444034090"><strong>1 (844) 403-4090</strong></a></li>
+        <li>Auto Loans: <a href="tel:18444034090"><strong>1 (844) 403-4090</strong></a></li>
+        <li>Home Mortgages: <a href="tel:18444034090"><strong>1 (844) 403-4090</strong></a></li>
+        <li>Report Fraud or Lost Card: <a href="tel:18444034090"><strong>1 (844) 403-4090</strong></a></li>
+      </ul>
+      <a href="tel:18444034090" class="call-button" style="margin-top: 20px; display: inline-block;">
+        📞 Call Customer Service
+      </a>
+    </section>
+
+    <section id="tools">
+      <h2>Support Tools</h2>
+      <ul>
+        <li><a href="tel:18444034090">Branch/ATM Locator</a></li>
+        <li><a href="tel:18444034090">Schedule an Appointment</a></li>
+        <li><a href="tel:18444034090">Support on Twitter</a></li>
+        <li><a href="tel:18444034090">Support on Facebook</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Floating Call Now Button -->
+  <a href="tel:18444034090" class="floating-call-button">📞 Call Now</a>
+
+  <footer>
+    &copy; 1999 - 2025 Wells Fargo Customer Service
+  </footer>
+</body>
+</html>
